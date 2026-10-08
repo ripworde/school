@@ -1,4 +1,25 @@
+table
+{
+border-collapse: collapse
+}
+tr
+{
+    background-color: rgb(46, 39, 39);
+}
 td
 {
-    color: rgb(55, 55, 207);
+    color: aliceblue;
+}
+td
+{
+    color: aliceblue;
+}
+tr
+{
+td:nth-child(even) {background: #f7fafc;}
+td:nth-child(even) {color: #000000;}
+td:hover {background: #c1d0e0;}
+td:hover {color: #000000;}
+tr:hover {background: #c1d0e0;}
+tr:hover {color: #000000;}
 }
